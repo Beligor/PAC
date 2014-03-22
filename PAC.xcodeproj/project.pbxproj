@@ -21,6 +21,7 @@
 		058A3EE718DDAA43009197CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058A3EC918DDAA43009197CF /* UIKit.framework */; };
 		058A3EEF18DDAA43009197CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 058A3EED18DDAA43009197CF /* InfoPlist.strings */; };
 		058A3EF118DDAA43009197CF /* PACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 058A3EF018DDAA43009197CF /* PACTests.m */; };
+		AD6E9DEA18DE1F3600E902F1 /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = AD6E9DE918DE1F3600E902F1 /* Readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		058A3EEC18DDAA43009197CF /* PACTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PACTests-Info.plist"; sourceTree = "<group>"; };
 		058A3EEE18DDAA43009197CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		058A3EF018DDAA43009197CF /* PACTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACTests.m; sourceTree = "<group>"; };
+		AD6E9DE918DE1F3600E902F1 /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				058A3EDB18DDAA43009197CF /* ViewController.m */,
 				058A3EDD18DDAA43009197CF /* Images.xcassets */,
 				058A3ECC18DDAA43009197CF /* Supporting Files */,
+				AD6E9DE918DE1F3600E902F1 /* Readme */,
 			);
 			path = PAC;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6E9DEA18DE1F3600E902F1 /* Readme in Resources */,
 				058A3EDE18DDAA43009197CF /* Images.xcassets in Resources */,
 				058A3ED018DDAA43009197CF /* InfoPlist.strings in Resources */,
 				058A3ED918DDAA43009197CF /* Main.storyboard in Resources */,
@@ -456,6 +460,7 @@
 				058A3EF618DDAA43009197CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		058A3EF718DDAA43009197CF /* Build configuration list for PBXNativeTarget "PACTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				058A3EF918DDAA43009197CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
